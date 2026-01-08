@@ -1,5 +1,5 @@
 print('\nVou verificar se contem Silva no seu nome...')
 nome=str(input('Digite seu nome completo:'))
 verificar = 'Silva' in nome.upper().title().strip()
-
 print(verificar)
+print('True = Você tem!\nFalse = Não tem!')
