@@ -1,6 +1,6 @@
 nome=str(input('Digite seu nome completo:'))
 primeiro =  nome.split()
-ultimo = nome.rsplit()
+ultimo = nome.split()
 
 print('Seu primeiro nome é:',primeiro[0])
-print('')
+print('Seu sobrenome é:',ultimo[1])
