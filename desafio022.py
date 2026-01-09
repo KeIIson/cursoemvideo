@@ -8,4 +8,4 @@ dividido=''.join(nome.split())#retirando os espaços no nome
 #nome.split() #separa o nome em partes
 print('Seu nome ao todo tem {} letras:'.format(len(nome) - nome.count(' ')))
 print('Quantidade de Caracteres:',len(nome))
-print('Seu primeiro nome tem:', '')
+print('Seu primeiro nome tem:{} letras'.format(nome.find(' ')))
