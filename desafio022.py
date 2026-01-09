@@ -1,10 +1,11 @@
-nome = str(input('Digite seu nome completo:'))
-print('Maiusculo:',nome.upper())
-print('Minusculo',nome.lower())
-print('Corta espaço:',nome.strip())
-print('Separado:',nome.split())
+nome = str(input('Digite seu nome completo:')).strip()
+print('Analisando seu nome...')
+print('Seu nome maiúsculas é: {}'.format(nome.upper()))
+print('Seu nome minúsculas é: {}'.format(nome.lower()))
+#print('Corta espaço:',nome.strip())
+#print('Separado:',nome.split())
 dividido=''.join(nome.split())#retirando os espaços no nome
-result=nome.split() #separa o nome em partes
-print('Quantidade de letras:',len(dividido))
+#nome.split() #separa o nome em partes
+print('Seu nome ao todo tem {} letras:'.format(len(nome) - nome.count(' ')))
 print('Quantidade de Caracteres:',len(nome))
-print('Quantidade de letras primeiro nome:', len(result[0]))
+print('Seu primeiro nome tem:', '')
